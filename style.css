@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Inter:wght@300&family=Itim&family=Lato:wght@900&family=Oswald:wght@300&family=Roboto+Condensed:wght@700&family=Roboto+Slab&family=Roboto:wght@400;500&family=Rubik:wght@300&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(206, 204, 204, 1);
+    font-family: Carrois Gothic SC;
+}
+.container{
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    /* border: 1px solid black; */
+}
+.col1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid blue; */
+}
+.col1 h1{
+    width: 493px;
+    height: 76px;
+    left: 111px;
+    top: 167px;
+    
+    font-family: 'Carrois Gothic SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 76px;
+    
+    color: #FFFFFF;
+    
+}
+.subCol{
+    width: 65%;
+    height: 50vh;
+    list-style: none;
+    /* border: 1px solid yellow; */
+}
+.subCol li{
+    width: 450px;
+    height: 7.1vh;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 30px;
+    border: 1px solid whitesmoke;
+}
+.subCol li span{
+    margin-left: 50px;
+}
+
+.col1 button{
+    width: 150px;
+    height: 30px;
+    margin-left: 260px;
+    margin-top: -10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(137, 137, 137, 1);
+    border: none;
+}
+.col2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid blue */;
+}
+.col2 img{
+    width: 400px;
+    height: 500px;
+}
+
+li{
+    background-color: #EDEDED;
+}
+
+li:nth-child(even) { background: #DEDEDE; }
+
+
